@@ -1,4 +1,4 @@
 package com.testtribe.javacourse;
 
-class CourseJava {
+public class CourseJava {
 }
