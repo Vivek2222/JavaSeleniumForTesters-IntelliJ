@@ -14,15 +14,14 @@ public class HelloWorld {
         float val2 = 56.7f;
         float val3 = val1 + val2;
 
+        char Charval1 = 'c';
 
-        char charval1 = 'c';
-
-        boolean isvalid = true;
+        boolean Isvalid = true;
 
         String s = "Vivek";
 
-        System.out.println("char is "+charval1);
-        System.out.println("Value is "+isvalid);
-        System.out.println("String is "+s);
+        System.out.println("Char is "+ Charval1);
+        System.out.println("Value is "+ Isvalid);
+        System.out.println("String is "+ s);
     }
 }
