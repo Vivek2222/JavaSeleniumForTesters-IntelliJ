@@ -1,4 +1,4 @@
-package ipod;
+package JavaBasic.ipod;
 
 public class ThisDemo {
 
