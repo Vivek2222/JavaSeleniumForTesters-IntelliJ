@@ -1,4 +1,6 @@
-public class Student {
+package JavaBasic;
+
+public class Student01 {
 
     //name
     String name;
@@ -23,12 +25,12 @@ public class Student {
     //signature
     //body
 
-    Student(String name){
+    Student01(String name){
         this.name = name;
     }
 
     public static void main(String[] args) {
-        Student s1 = new Student("Vivek");
+        Student01 s1 = new Student01("Vivek");
         s1.getTotalMarks(5, 10);
         System.out.println("Name is "+s1.name);
         System.out.println("Name is "+s1.className);
