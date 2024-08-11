@@ -1,4 +1,4 @@
-package com.testtribe.javacourse;
+package JavaBasic.javacourse;
 
 public class CourseSelenium {
 
