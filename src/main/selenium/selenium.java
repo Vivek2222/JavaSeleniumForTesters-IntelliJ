@@ -17,7 +17,9 @@ public class selenium {
         WebDriver wd = null;
 
         ChromeOptions option = new ChromeOptions();
-
+        //Need to download this jar- selenium-server-4.23.1.jar
+        //run the Command from that folder: java -jar selenium-server-4.23.1.jar standalone
+        //Path:C:\Users\vivek\Downloads\Selenium
         //Connecting to selenium Grid
         wd = new RemoteWebDriver(new URL("http://localhost:4444"), option);
 
@@ -29,6 +31,9 @@ public class selenium {
         //open url method1
         //wd.get("https://demo.nopcommerce.com/login");
         wd.get("https://demo.evershop.io/account/login");
+
+
+
 
         //open URL method2
         /*
