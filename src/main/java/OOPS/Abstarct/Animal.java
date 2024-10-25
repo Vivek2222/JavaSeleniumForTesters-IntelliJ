@@ -2,7 +2,7 @@ package OOPS.Abstarct;
 
 public abstract class Animal {
 
-    //Abstarct class use to hide details
+    //Abstract class use to hide details
     public void eat(){
         System.out.println("Eating");
     }
