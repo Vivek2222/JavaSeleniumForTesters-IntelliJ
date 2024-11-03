@@ -32,7 +32,6 @@ public class selenium {
         //wd.get("https://demo.nopcommerce.com/login");
         wd.get("https://demo.evershop.io/account/login");
 
-
         //open URL method2
         /*
         wd.navigate().to("https://demo.nopcommerce.com/login");
