@@ -23,10 +23,8 @@ public class selenium {
         //Connecting to selenium Grid
         wd = new RemoteWebDriver(new URL("http://localhost:4444"), option);
 
-
         //Connect to Driver directly
         //wd = new ChromeDriver();
-
 
         //open url method1
         //wd.get("https://demo.nopcommerce.com/login");
