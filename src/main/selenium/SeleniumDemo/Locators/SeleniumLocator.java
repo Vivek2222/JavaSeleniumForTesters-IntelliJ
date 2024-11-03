@@ -62,7 +62,6 @@ public class SeleniumLocator {
         //PartialLinkText
         wd.findElement(By.partialLinkText("Nike air zoom")).click();
 
-
         wd.close();
 
     }
