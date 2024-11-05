@@ -38,6 +38,5 @@ public class takeScreenshot {
         System.out.println("Screenshot saved at: " + fileWithPath);
 
         wd.quit();
-
     }
 }
