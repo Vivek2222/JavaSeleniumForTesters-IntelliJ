@@ -22,7 +22,6 @@ public class Buttons {
         wd = new RemoteWebDriver(new URL("http://localhost:4444"), option);
 
         //Working with buttons
-
         wd.get("https://demo.evershop.io/account/login");
         wd.findElement(By.xpath("//button[@type='submit']")).click();
         String s1 = wd.findElement(By.xpath("//button[@type='submit']")).getText();
