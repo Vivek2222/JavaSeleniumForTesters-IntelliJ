@@ -32,9 +32,9 @@ public class Dropdown_FindingElementsandList {
 //        }
         wd.findElement(By.className("form-field")).click();
         WebElement e3 = null;
-        while(i2.hasNext()){
+        while (i2.hasNext()) {
             e3 = i2.next();
-            if (e3.getAttribute("value").equals("name")){
+            if (e3.getAttribute("value").equals("name")) {
                 e3.click();
             }
         }
