@@ -22,7 +22,7 @@ public class MultipleCatchBlock {
         } catch (ArrayIndexOutOfBoundsException a) {
             System.out.println("Array exception handled");
             //a.printStackTrace();
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("All exception handled");
         }
         //Cannot be able to add the exception type after Exception object
