@@ -12,9 +12,9 @@ public class ForLoop {
 //        }
 
         int[] numArray = new int[6];
-        for(int i = 0; i<numArray.length; i++){
+        for (int i = 0; i < numArray.length; i++) {
             numArray[i] = i + 10;
-            System.out.println("Index position is: "+i+ " and value is: " + numArray[i]);
+            System.out.println("Index position is: " + i + " and value is: " + numArray[i]);
         }
     }
 }
