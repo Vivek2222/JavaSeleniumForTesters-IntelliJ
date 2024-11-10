@@ -6,16 +6,13 @@ public class IfElse {
 
         //int x  = 8;
         int x = 100; //else condition executed
-        if(x<5){
+        if (x < 5) {
             System.out.println("Small");
-        }
-        else if(x>=5 && x<10){
+        } else if (x >= 5 && x < 10) {
             System.out.println("Large");
-        }
-        else if (x>=10 && x<15) {
+        } else if (x >= 10 && x < 15) {
             System.out.println("Very Large");
-        }
-        else {
+        } else {
             System.out.println("Ultra Large");
         }
 
