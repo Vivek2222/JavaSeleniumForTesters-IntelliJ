@@ -5,9 +5,9 @@ import AccessModifires.ClassModifires.pckg1.Class1;
 
 public class Class3 {
 
-    public void method1(){
+    public void method1() {
         Class1 c1 = new Class1();
-       // Class2 c2 = new Class2();//class2 is not a public class
+        // Class2 c2 = new Class2();//class2 is not a public class
         Class3 c3 = new Class3();
     }
 }
