@@ -1,18 +1,18 @@
 package SeleniumDemo.JavaScriptExecutor;
 
-public class ChromeDriverDummy implements WebDriverDummy, JavaScriptExecuteDummy{
+public class ChromeDriverDummy implements WebDriverDummy, JavaScriptExecuteDummy {
 
-    public void getChromeDriver(){
+    public void getChromeDriver() {
         System.out.println("Chrome working as chrome");
     }
 
     @Override
-    public void getJSExecutor(){
+    public void getJSExecutor() {
         System.out.println("Chorme working as JS");
     }
 
     @Override
-    public void getWebDriver(){
+    public void getWebDriver() {
         System.out.println("Chrome working as WebDriver");
     }
 
