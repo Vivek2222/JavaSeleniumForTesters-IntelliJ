@@ -28,9 +28,9 @@ public class FluentWaitExample {
 
         //Fluent wait
         FluentWait<WebDriver> wait = new FluentWait<>(wd);
-                    wait.withTimeout(Duration.ofSeconds(30))
-                                    .pollingEvery(Duration.ofSeconds(5))
-                                      .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a.logo-icon")));
+        wait.withTimeout(Duration.ofSeconds(30))
+                .pollingEvery(Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("a.logo-icon")));
 
         wd.findElement(By.xpath("//input[@name='email']")).sendKeys("Vivek");
 
