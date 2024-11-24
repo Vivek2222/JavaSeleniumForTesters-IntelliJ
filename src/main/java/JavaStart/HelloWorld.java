@@ -9,7 +9,7 @@ public class HelloWorld {
 
     public static void checkdatatype() {
         int num1 = 45;
-        int num2= 50;
+        int num2 = 50;
         int num3 = num1 + num2;
 
         float val1 = 23.4f;
@@ -22,8 +22,8 @@ public class HelloWorld {
 
         String s = "Vivek";
 
-        System.out.println("Char is "+ Charval1);
-        System.out.println("Value is "+ Isvalid);
-        System.out.println("String is "+ s);
+        System.out.println("Char is " + Charval1);
+        System.out.println("Value is " + Isvalid);
+        System.out.println("String is " + s);
     }
 }
