@@ -6,7 +6,7 @@ public class LocalVariables {
 
     int x;
 
-    public void method1(){
+    public void method1() {
         int z; //Scope of the local varibale limited to the local area that is method only
         //System.out.println(z);
 
