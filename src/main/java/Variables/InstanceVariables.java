@@ -12,7 +12,7 @@ public class InstanceVariables {
 
     boolean isValid;
 
-    public void method1(){
+    public void method1() {
         System.out.println(x);
     }
 
