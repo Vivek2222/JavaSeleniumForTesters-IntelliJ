@@ -12,7 +12,7 @@ public class StaticVariables {
         //s1.x=10; //not required to create the objects
         //System.out.println(s1.x);
         //System.out.println(s2.x);
-        StaticVariables.x=10;
+        StaticVariables.x = 10;
 
         System.out.println(x);
         System.out.println(x);
