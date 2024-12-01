@@ -32,7 +32,7 @@ public class DropdownSelection {
 
         List<WebElement> l1 = s1.getOptions();
         Iterator<WebElement> i1 = l1.iterator();
-        while(i1.hasNext()){
+        while (i1.hasNext()) {
             System.out.println(i1.next().getText());
         }
 
