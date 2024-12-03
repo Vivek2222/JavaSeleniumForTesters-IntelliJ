@@ -6,18 +6,18 @@ public class Switch {
 
         String hooby = "Sing"; //Case sensitive
 
-        switch(hooby) {
+        switch (hooby) {
 
             case "Sing": {
                 System.out.println("I am Singing");
                 break;
             }
-            case "Play":{
+            case "Play": {
                 System.out.println("I am Playing");
                 break;
             }
 
-            default:{
+            default: {
                 System.out.println("I have different hobby");
                 break;
             }
