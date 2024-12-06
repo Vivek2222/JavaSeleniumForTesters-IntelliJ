@@ -6,12 +6,12 @@ public class Encapsulation {
 
     private String name;
 
-    public void setX(int x){
+    public void setX(int x) {
 
-        this.x=x;
+        this.x = x;
     }
 
-    public int getX(){
+    public int getX() {
         return this.x;
         //return x;
     }
