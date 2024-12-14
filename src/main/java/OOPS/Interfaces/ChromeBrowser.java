@@ -1,13 +1,13 @@
 package OOPS.Interfaces;
 
-public class ChromeBrowser implements Browser{
+public class ChromeBrowser implements Browser {
 
-    public void console(){
+    public void console() {
 
         System.out.println("I am Chrome Console");
     }
 
-    public void userInterface(){
+    public void userInterface() {
 
         System.out.println("I am Chrome userInterface");
     }
