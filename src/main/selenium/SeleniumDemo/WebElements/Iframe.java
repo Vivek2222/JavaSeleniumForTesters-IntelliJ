@@ -22,9 +22,9 @@ public class Iframe {
         //Working with Iframe
         wd.get("https://selectorshub.com/iframe-scenario/");
 
-       //Indexing
+        //Indexing
         //wd.switchTo().frame(1).findElement(By.cssSelector("#inp_val")).sendKeys("Vivek");
-       //String: Name or Id
+        //String: Name or Id
         //wd.switchTo().frame("pact1").findElement(By.cssSelector("#inp_val")).sendKeys("Vivek");
 
 
