@@ -13,13 +13,13 @@ public class ShadowDOM {
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
-    WebDriver wd = null;
+        WebDriver wd = null;
 
-    ChromeOptions option = new ChromeOptions();
-    //connecting to selenium grid
-    wd = new RemoteWebDriver(new URL("http://localhost:4444"),option);
+        ChromeOptions option = new ChromeOptions();
+        //connecting to selenium grid
+        wd = new RemoteWebDriver(new URL("http://localhost:4444"), option);
 
-    //Working with ShadowDOM
+        //Working with ShadowDOM
         wd.get("https://selectorshub.com/xpath-practice-page/");
         wd.manage().window().maximize();
         SearchContext shadowRoot = wd.findElement(By.xpath("//div[@id='userName']")).getShadowRoot();
