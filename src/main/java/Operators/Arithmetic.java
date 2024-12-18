@@ -7,11 +7,11 @@ public class Arithmetic {
         int y = 20;
         int z;
 
-        z = y-x;
-        int z1 = y+x;
-        int z2 = y*x;
-        int z3 = y/x;
-        int z4 = z3*x;
+        z = y - x;
+        int z1 = y + x;
+        int z2 = y * x;
+        int z3 = y / x;
+        int z4 = z3 * x;
 
         System.out.println(z);
         System.out.println(z1);
