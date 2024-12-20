@@ -8,10 +8,10 @@ public class IncrementDecrement {
         int y = 20;
         int z;
 
-        z = y-x;
+        z = y - x;
 
         System.out.println(x); //10
-        x=x+1;
+        x = x + 1;
         System.out.println(x);//11
         System.out.println(x++); //Postfix //11
         System.out.println(x);//12
