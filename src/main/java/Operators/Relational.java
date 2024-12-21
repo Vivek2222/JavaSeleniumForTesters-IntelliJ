@@ -12,48 +12,42 @@ public class Relational {
         >=
          */
 
-        int x =10;
-        int y =20;
+        int x = 10;
+        int y = 20;
 
-        if(x==y){ //10==20
+        if (x == y) { //10==20
             System.out.println("Equal");
-        }
-        else{
+        } else {
             System.out.println("Not Equal");
         }
         System.out.println("*********************************");
-        if(x!=y){ //10!=20
+        if (x != y) { //10!=20
             System.out.println("Not Equal");
-        }
-        else{
+        } else {
             System.out.println("Equal");
         }
         System.out.println("*********************************");
-        if(x>y){ //10>20
+        if (x > y) { //10>20
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("No");
         }
         System.out.println("*********************************");
-        if(x<y){ //10<20
+        if (x < y) { //10<20
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("No");
         }
         System.out.println("*********************************");
-        if(x<=y){ //10<=20
+        if (x <= y) { //10<=20
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("No");
         }
         System.out.println("*********************************");
-        if(x>=y){ //10>=20
+        if (x >= y) { //10>=20
             System.out.println("Yes");
-        }
-        else{
+        } else {
             System.out.println("No");
         }
     }
