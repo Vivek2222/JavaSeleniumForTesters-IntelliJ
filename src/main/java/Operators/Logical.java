@@ -25,15 +25,15 @@ public class Logical {
         //False && True = False
         //False && False = False
 
-        if (z > y  && y > x){ //true && True
+        if (z > y && y > x) { //true && True
             System.out.println("True");
-        }else{
+        } else {
             System.out.println("False");
         }
         System.out.println("***************************************");
-        if (z > y  && x > y){ //true && false
+        if (z > y && x > y) { //true && false
             System.out.println("True");
-        }else{
+        } else {
             System.out.println("False");
         }
 
@@ -46,15 +46,15 @@ public class Logical {
         //False || True = True
         //False || False = False
 
-        if (z > y  || y > x){ //true && True
+        if (z > y || y > x) { //true && True
             System.out.println("True");
-        }else{
+        } else {
             System.out.println("False");
         }
         System.out.println("***************************************");
-        if (z > y  || x > y){ //true && false
+        if (z > y || x > y) { //true && false
             System.out.println("True");
-        }else{
+        } else {
             System.out.println("False");
         }
 
@@ -62,9 +62,9 @@ public class Logical {
         //Not
         //True = False
         //False = True
-        if (!(z > y  || x > y)){ //!(t || f) => !(T) = F
+        if (!(z > y || x > y)) { //!(t || f) => !(T) = F
             System.out.println("True");
-        }else{
+        } else {
             System.out.println("False");
         }
 
