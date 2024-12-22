@@ -10,8 +10,8 @@ public class Wrapper {
         System.out.println(i.intValue());
 
         //Unboxing
-        int y= i.intValue();
-        System.out.println("Primitive datatype for y value is: "+y);
+        int y = i.intValue();
+        System.out.println("Primitive datatype for y value is: " + y);
 
         //Autoboxing
         Integer a = 10;
