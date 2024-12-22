@@ -6,7 +6,7 @@ public class JavaString {
 
         String name = new String("Vivek");
 
-        String lastName= "Polos";
+        String lastName = "Polos";
 
         System.out.println(lastName.length()); //4
         System.out.println(name.charAt(2)); //v
