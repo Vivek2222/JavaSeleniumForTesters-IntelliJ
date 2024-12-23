@@ -27,7 +27,7 @@ public class ListsDemo {
         //Contains
         if (gNames.contains("AB")) {
             System.out.println("AB exist in the list");
-        }else {
+        } else {
             System.out.println("AB does not exits in the list");
         }
         //Add Element
@@ -36,8 +36,8 @@ public class ListsDemo {
         //Find Position
         System.out.println(gNames.indexOf("OD"));
 
-        Iterator<String> i1= gNames.iterator();
-        while (i1.hasNext()){
+        Iterator<String> i1 = gNames.iterator();
+        while (i1.hasNext()) {
             System.out.println(i1.next());
         }
 
@@ -50,7 +50,7 @@ public class ListsDemo {
         System.out.println("Sorting Array");
         //System.out.println(names);
 
-        for (String s : names){
+        for (String s : names) {
             System.out.println(s);
         }
     }
