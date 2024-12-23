@@ -1,7 +1,6 @@
 package Collection;
 
 
-
 //Collection: Group of objects
 //Array also help in grouping the objects
 //Array is not growable and depend on indexing
