@@ -7,7 +7,7 @@ public class Inhe {
         Car car = new BMW();
         car.drive();
 
-        Car car1= new Ferrari();
+        Car car1 = new Ferrari();
         car1.drive();
 
     }
