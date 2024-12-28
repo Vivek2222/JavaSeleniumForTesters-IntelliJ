@@ -16,10 +16,9 @@ public class Selenium {
 
         String browserName = "chrome";
         Browser b1 = null;
-        if (browserName == "chrome"){
+        if (browserName == "chrome") {
             b1 = new ChromeBrowser();
-        }
-        else{
+        } else {
             b1 = new FirefoxBrowser();
         }
 
