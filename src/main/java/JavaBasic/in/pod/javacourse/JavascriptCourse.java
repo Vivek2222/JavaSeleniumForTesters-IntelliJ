@@ -4,7 +4,7 @@ import JavaBasic.javacourse.CourseJava;
 
 public class JavascriptCourse {
 
-    public void demo(){
+    public void demo() {
 
         CourseJava j1 = new CourseJava();
     }
